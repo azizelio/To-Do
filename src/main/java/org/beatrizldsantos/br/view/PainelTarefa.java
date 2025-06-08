@@ -73,6 +73,7 @@ public class PainelTarefa extends JPanel {
         add(botaoDeletar, BorderLayout.EAST);
     }
 
+
     private void atualizarRotuloTexto() {
         if (tarefa.estaConcluida()) {
             rotuloTexto.setForeground(Color.GRAY);

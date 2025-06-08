@@ -28,6 +28,7 @@ public class PainelStatus extends JPanel {
         botaoLimparConcluidas.setFocusPainted(false);
         botaoLimparConcluidas.setForeground(new Color(100, 100, 100));
 
+
         add(rotuloStatus);
         add(Box.createHorizontalGlue());
         add(botaoLimparConcluidas);

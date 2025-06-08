@@ -15,6 +15,7 @@ public class ControladorTodo implements GerenciadorTarefas.OuvinteMudancaTarefa,
         this.modelo = modelo;
         this.view = visualizacao;
 
+
         modelo.adicionarOuvinteMudancaTarefa(this);
     }
 

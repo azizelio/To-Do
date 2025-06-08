@@ -14,7 +14,6 @@ public class Main {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-
             GerenciadorTarefas modelo = new GerenciadorTarefas();
             VisaoTodo visao = new VisaoTodo();
             ControladorTodo controlador = new ControladorTodo(modelo, visao);

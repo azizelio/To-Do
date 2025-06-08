@@ -17,6 +17,7 @@ public class GerenciadorTarefas {
         ouvintes.add(ouvinte);
     }
 
+
     private void notificarOuvintes() {
         for (OuvinteMudancaTarefa ouvinte : ouvintes) {
             ouvinte.aoMudarTarefas();

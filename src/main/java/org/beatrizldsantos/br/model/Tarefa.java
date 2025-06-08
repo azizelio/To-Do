@@ -10,6 +10,8 @@ public class Tarefa implements Serializable {
     private boolean concluida;
     private LocalDateTime criadaEm;
 
+
+
     public Tarefa(String texto) {
         this.texto = texto;
         this.concluida = false;
